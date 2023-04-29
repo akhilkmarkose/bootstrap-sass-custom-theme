@@ -9308,5 +9308,7 @@ textarea.form-control-lg {
 
   .d-print-none {
     display: none !important; } }
+.menu {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(187, 110, 245, 0.95)); }
 
 /*# sourceMappingURL=style.css.map */
