@@ -1,0 +1,20 @@
+{
+  "name": "bootstrap-sass-custom-theme-project",
+  "version": "1.0.0",
+  "description": "Custom theming a bootstrap project using SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.66.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "autoprefixer": "^10.4.15",
+    "bootstrap": "^5.3.1",
+    "postcss-cli": "^10.1.0"
+  }
+}
