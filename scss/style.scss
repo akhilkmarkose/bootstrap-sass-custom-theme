@@ -1,5 +1,1 @@
-$primary: red;
-
-.test {
-    color: $primary;
-}
+@use "custom";
