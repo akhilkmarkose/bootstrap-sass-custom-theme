@@ -11852,7 +11852,7 @@ textarea.form-control-lg {
 }
 .btn-rounded {
   position: relative;
-  padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
+  padding: 0.625rem 3.75rem 0.625rem 1.25rem;
   font-weight: 700;
   margin: 0;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
@@ -11869,7 +11869,7 @@ textarea.form-control-lg {
   width: 2.5rem;
   height: 2.5rem;
   top: 50%;
-  right: 5px;
+  right: 3px;
   transform: translateY(-50%);
   border-radius: 50%;
 }
@@ -11887,6 +11887,23 @@ textarea.form-control-lg {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+.display-2--intro {
+  display: inline-block;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.display-2--description {
+  margin-top: 1.2rem;
+  display: block;
+  font-size: 1.5rem;
+  text-transform: none;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
@@ -11897,6 +11914,27 @@ textarea.form-control-lg {
   color: #fff !important;
   text-transform: capitalize;
   font-weight: 600;
+}
+
+.intro-section {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+
+.intros .video-box {
+  position: relative;
+}
+.intros .video-box a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.intros .video-box a span i {
+  font-size: 6rem;
+  color: #d122e3;
 }
 
 /*# sourceMappingURL=style.css.map */
