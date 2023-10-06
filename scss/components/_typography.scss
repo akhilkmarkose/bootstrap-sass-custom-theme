@@ -13,7 +13,12 @@
     &--description {
         margin-top: 1.2rem;
         display: block;
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-transform: none;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 1.4rem;
+            display: inline-block;
+        }
     }
 }

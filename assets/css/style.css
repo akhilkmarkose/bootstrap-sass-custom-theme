@@ -11850,6 +11850,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@keyframes pulse-border {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
 .btn-rounded {
   position: relative;
   padding: 0.625rem 3.75rem 0.625rem 1.25rem;
@@ -11900,8 +11910,14 @@ textarea.form-control-lg {
 .display-2--description {
   margin-top: 1.2rem;
   display: block;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-transform: none;
+}
+@media (min-width: 992px) {
+  .display-2--description {
+    font-size: 1.4rem;
+    display: inline-block;
+  }
 }
 
 .menu {
@@ -11923,6 +11939,9 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.intros {
+  margin: auto;
+}
 .intros .video-box {
   position: relative;
 }
@@ -11935,6 +11954,24 @@ textarea.form-control-lg {
 .intros .video-box a span i {
   font-size: 6rem;
   color: #d122e3;
+}
+
+.border-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 6rem;
+  height: 6rem;
+  border: 0.55rem solid #fff;
+  border-radius: 50%;
+  animation: pulse-border 1.5s linear infinite;
+}
+.border-animation--border-1 {
+  animation-delay: 1s;
+}
+.border-animation--border-2 {
+  animation-delay: 1.5s;
 }
 
 /*# sourceMappingURL=style.css.map */
